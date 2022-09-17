@@ -1,0 +1,166 @@
+.info-container {
+    background-color: rgba(17, 9, 9, 0.963);
+    color: black;
+    margin-bottom: 99vh;
+    margin-top: 15px;
+    margin-left: 10%;
+    height: 800px;
+    padding-top: 0px;
+    display: flex;
+    width: 80%;
+  }
+  
+  .info1 {
+    margin: 0.5% 0.5% 0.5% 0.5%; 
+    height: 50%;
+    width: 73%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/Netflix.jpg); 
+  }
+  .info2 {
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    height: 50%;
+     width: 73%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/Amazon.jpg); 
+  }
+  .info13 {
+    margin: 0.5% 0.5% 0.5% 0.5%; 
+    height: fit-content;
+    width: 99%;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/SunTour.jpg); 
+  }
+  .info3 {
+    margin: 0.5% 0.5% 0.5% 0.5%; 
+    height: fit-content;
+    width: 99%;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/Apple.jpg); 
+  }
+
+  .github{
+    background-image:url("https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_505df21738edbe9baababa9d60be291d/github.png") ;
+  }
+  .info0{
+    /* margin: 0.5% 0.5% 0.5% 0.5%; */
+    height: 100%;
+    width: 83%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/photo_2022-09-09_21-28-09.jpg);
+  }
+  .info4{
+    margin: 0.5% 0.5% 0.5% 0.5%; 
+    height: fit-content;
+    width: 99%;
+    display: flex;
+    padding-top: 8px;
+    flex-direction: column;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/EVANGADI\ 2.jpg);
+  }
+
+  .info0{
+    margin: 0.5% 0.5% 0.5% 0.5%; 
+    height: 50%;
+    width: 73%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../componants/image/photo_2022-09-09_21-28-09.jpg); 
+  }
+  .info-container button {
+    background: #4bd2f07d;
+    border: 1px solid;
+    border-color: #1d6aad78 #9c7e31 #846a29;
+    color: #111;
+    display: inline-block;
+    object-fit: contain;
+    width: 90px;
+    height: 33px;
+    margin-top: 90%;
+    margin-left: 28%;
+    border-radius: 5px;
+    transition: transform 0.1s ease-out;
+    box-shadow: 0 5px 0 #19275e;
+  }
+  button:active{
+    box-shadow: 0 0 0  #58a700;
+    transform: translateY(5px);
+  }
+  .infoimg {
+    width: 0px;
+  }
+  @media only screen and (max-width: 950px) {
+    .info-container {
+      width: 80%;
+      background-color: rgba(12, 11, 24, 0.803);
+      padding-top: 2px;
+      margin-bottom: 99vh;
+      height: 530px;
+      display: flex;
+      flex-direction: column;
+  
+      /* display:flex; */
+      
+    }
+    .info1{
+      padding-left: 0px;
+      background-image: none;
+    }
+    .info2 {
+     background-image: none;
+    }
+    .info0 {
+   
+      background-image: none;
+    } 
+    .info13{
+        background-image: none;
+      }
+
+    .info3{
+      background-image: none;
+    }
+    .info4{
+      padding-left: 0px;
+      background-image: none;
+    }
+    .info-container button {
+      margin-top: 10%;
+      margin-left: 18%;
+      width: 110px;
+      height: 35px;
+      padding: 3% 3% 3% 1%;
+      display: block;
+      color: white;
+      font-weight: 600;
+      font-size: large;
+      text-decoration: none;
+    }
+  
+    /* .info > h1 {
+      text-align: center;
+      font-size: 23px;
+    } */
+  
+  }
+  
