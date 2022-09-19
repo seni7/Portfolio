@@ -161,13 +161,15 @@
       padding: 0;
       font-size: 20px;
     }
-  
+
     .footer-contact {
       font-size: 16px;
       /* padding: 100px 0 30px 0; */
       text-align: center;
     }
-   
+   .links{
+    padding-left: 75px;
+   }
     .footer-sns i{
   
       font-size: smaller;

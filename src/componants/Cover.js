@@ -22,7 +22,7 @@ function Cover() {
     <div className="cover-container">
           <video className="video" src={coverVideo} autoPlay loop muted />
           <h2>Senait Alemayehu</h2>
-         <p> Fullstack Developer</p>
+         <p> Fullstack web Developer / Mearn Stack</p>
     </div>
   )
 }

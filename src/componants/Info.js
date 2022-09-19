@@ -41,7 +41,8 @@ function Info() {
         </div>
        
  <div className="info1">
-      <div>
+  <div>
+       <div>
       <a href="https://netflix-clone-b976b.web.app"><button>Netflix</button></a>
       </div>
       <div className="infoimg">
@@ -51,9 +52,11 @@ function Info() {
       <div>
       <a href="/"><button>SunTour</button></a>
       </div>
-      <div className="infoimg">
+        <div className="infoimg">
         <a href="https://github.com/seni7/Tourism-website"><img src={img} alt=''/></a>  
         </div>
+  </div>
+    
       </div>
       </div>
       

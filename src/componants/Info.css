@@ -2,49 +2,66 @@
     background-color: rgba(17, 9, 9, 0.963);
     color: black;
     margin-bottom: 99vh;
-    margin-top: 15px;
+    /* margin-top: 7px; */
     margin-left: 10%;
     height: 800px;
     padding-top: 0px;
     display: flex;
     width: 80%;
+    background-color: white;
+    /* z-index: 1; */
+    box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 0.1s ease-in;
   }
-  
+
   .info1 {
     margin: 0.5% 0.5% 0.5% 0.5%; 
-    height: 50%;
+    height: 60%;
     width: 73%;
+    margin-top: -40px;
+    box-shadow: #19275e;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/Netflix.jpg); 
   }
+  .info1:hover {
+    transform: scale(1.05);
+  } 
   .info2 {
     margin: 0.5% 0.5% 0.5% 0.5%;
-    height: 50%;
-     width: 73%;
+    height: 60%;
+    width: 73%;
+    margin-top: -40px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/Amazon.jpg); 
   }
+  .info2:hover {
+    transform: scale(1.05);
+  } 
   .info13 {
     margin: 0.5% 0.5% 0.5% 0.5%; 
-    height: fit-content;
+    height: 440px;
     width: 99%;
-    padding-top: 8px;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
-    background-position: center;
+    background-position:center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/SunTour.jpg); 
   }
+  .info13:hover {
+    transform: scale(1.05);
+  } 
   .info3 {
     margin: 0.5% 0.5% 0.5% 0.5%; 
-    height: fit-content;
+    height: 440px;
     width: 99%;
-    padding-top: 8px;
+    margin-top: 3%;
+    margin-top: 7px;
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -52,60 +69,71 @@
     background-repeat: no-repeat;
     background-image: url(../componants/image/Apple.jpg); 
   }
+  .info3:hover {
+    transform: scale(1.05);
+  } 
 
   .github{
     background-image:url("https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_505df21738edbe9baababa9d60be291d/github.png") ;
   }
-  .info0{
-    /* margin: 0.5% 0.5% 0.5% 0.5%; */
-    height: 100%;
-    width: 83%;
+  /* .info0{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    height: 60%;
+    width: 73%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/photo_2022-09-09_21-28-09.jpg);
-  }
+
+  } */
   .info4{
     margin: 0.5% 0.5% 0.5% 0.5%; 
-    height: fit-content;
+    height: 430px;
     width: 99%;
+    margin-top: 3%;
+    /* margin-top: 7px; */
     display: flex;
-    padding-top: 8px;
     flex-direction: column;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/EVANGADI\ 2.jpg);
   }
-
+  .info4:hover {
+    transform: scale(1.05);
+  } 
   .info0{
-    margin: 0.5% 0.5% 0.5% 0.5%; 
-    height: 50%;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    height: 60%;
     width: 73%;
+    margin-top: -40px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../componants/image/photo_2022-09-09_21-28-09.jpg); 
   }
+  .info0:hover {
+    transform: scale(1.05);
+  } 
   .info-container button {
     background: #4bd2f07d;
     border: 1px solid;
     border-color: #1d6aad78 #9c7e31 #846a29;
     color: #111;
     display: inline-block;
-    object-fit: contain;
-    width: 90px;
+    /* object-fit: contain; */
+    width: 95px;
     height: 33px;
-    margin-top: 90%;
-    margin-left: 28%;
+    margin-top: 95%;
+    margin-left: 68%;
     border-radius: 5px;
     transition: transform 0.1s ease-out;
     box-shadow: 0 5px 0 #19275e;
   }
-  button:active{
+  /* button:active{
     box-shadow: 0 0 0  #58a700;
     transform: translateY(5px);
-  }
+  } */
   .infoimg {
     width: 0px;
   }
@@ -114,10 +142,12 @@
       width: 80%;
       background-color: rgba(12, 11, 24, 0.803);
       padding-top: 2px;
-      margin-bottom: 99vh;
-      height: 530px;
+      /* margin-bottom: 99vh; */
+      height: 450px;
       display: flex;
       flex-direction: column;
+      box-shadow: none;
+      transition: none;
   
       /* display:flex; */
       
@@ -125,23 +155,33 @@
     .info1{
       padding-left: 0px;
       background-image: none;
+      margin-top: 0px;
     }
     .info2 {
+     height: 130px;
      background-image: none;
+     margin-top: 50px;
     }
     .info0 {
-   
+      height: 70px;
+      margin-top: 0px;
       background-image: none;
     } 
     .info13{
+        height: 190px;
+        margin-top: 0px;
         background-image: none;
       }
 
     .info3{
+      margin-top: 0px;
+      height: 70px;
       background-image: none;
     }
     .info4{
+      margin-top: 0px;
       padding-left: 0px;
+      height: 120px;
       background-image: none;
     }
     .info-container button {
@@ -150,7 +190,7 @@
       width: 110px;
       height: 35px;
       padding: 3% 3% 3% 1%;
-      display: block;
+   
       color: white;
       font-weight: 600;
       font-size: large;
